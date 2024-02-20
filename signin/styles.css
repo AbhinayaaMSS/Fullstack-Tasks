@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: lightyellow;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.heading {
+  width: 800px;
+  border: 2px solid #000;
+  padding: 20px;
+  margin-left: auto; 
+  margin-right: auto; 
+  background-color: white;
+  color: brown;
+}
+
+.box {
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top; 
+}
+
+.about-us {
+  width: 300px; 
+  height: 300px; 
+  border: 2px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: floralwhite;
+  
+}
+
+.sign-in {
+  width: 300px; 
+  height: 300px; 
+  border: 2px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: floralwhite;
+}
+
+.sign-up {
+  width: 300px; 
+  height: 300px; 
+  border: 2px solid #000;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: floralwhite;
+}
+
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.footer {
+  margin-top: 20px;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  text-align: center;
+  background-color: wheat;
+}
